@@ -1,0 +1,177 @@
+{
+  "project_info": {
+    "project_number": "668967303228",
+    "firebase_url": "https://project2018-95ea6.firebaseio.com",
+    "project_id": "project2018-95ea6",
+    "storage_bucket": "project2018-95ea6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668967303228:android:3909480a2424eca7",
+        "android_client_info": {
+          "package_name": "com.cybertech.cliniccare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668967303228-9ch934gkvieacfpss67osog7scv76khl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cybertech.cliniccare",
+            "certificate_hash": "afd2ad74ea4675dfee44c011e8745da130cab16c"
+          }
+        },
+        {
+          "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-mG22JD0dVnnWugICOgen-WgK73LWLME"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668967303228:android:0c5310931ef3b74a",
+        "android_client_info": {
+          "package_name": "com.cybertech.easymobileprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-mG22JD0dVnnWugICOgen-WgK73LWLME"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668967303228:android:4932f7086b109770",
+        "android_client_info": {
+          "package_name": "com.cybertech.fuelsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-mG22JD0dVnnWugICOgen-WgK73LWLME"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668967303228:android:11aae50af6daaa90",
+        "android_client_info": {
+          "package_name": "com.cybertech.personalassistance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668967303228-rnd6j7s74h2lmvbeajmkicje6u8bkk2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cybertech.personalassistance",
+            "certificate_hash": "abc795c721ce2291b3f2d9d2ddb4891843329fbc"
+          }
+        },
+        {
+          "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-mG22JD0dVnnWugICOgen-WgK73LWLME"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668967303228-d6msrt5k9v76iu5u5ai8435j8vr20gbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

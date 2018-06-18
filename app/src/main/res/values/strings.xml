@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Clinic Care</string>
+    <string name="pro_Title">DESIGN AND IMPLEMENTATION OF CLINIC MOBILE APPLICATION FOR FUTMINNA</string>
+    <string name="st_name">ABDULRAHEEM AISHA OMOLOLA</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="inputerror">field cannot be Empty!</string>
+
+    <string-array name="userlist">
+        <item>Clinic Attendant</item>
+        <item>Nurse</item>
+        <item>Doctor</item>
+        <item>Pharmacist</item>
+    </string-array>
+
+    <string-array name="schools">
+        <item>SICT</item>
+        <item>SEET</item>
+        <item>SAAT</item>
+        <item>SEMT</item>
+        <item>SET</item>
+        <item>SLS</item>
+        <item>SPS</item>
+        <item>SEET-new</item>
+    </string-array>
+
+    <string-array name="departments">
+        <item>ABE</item>
+        <item>CSS</item>
+        <item>CPT</item>
+        <item>CIT</item>
+        <item>CPE</item>
+        <item>CIE</item>
+        <item>EBS</item>
+        <item>EEE</item>
+        <item>LIT</item>
+        <item>MEE</item>
+        <item>PMT</item>
+    </string-array>
+
+    <string-array name="levels">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+    </string-array>
+
+    <string name="login_help_text">Login as either Clinic attendant/Doctor/</string>
+    <string name="login_help_text2">Nurse or Pharmacist. Don\'t have an</string>
+    <string name="title_activity_workers_profile">WorkersProfile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
