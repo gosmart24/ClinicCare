@@ -50,4 +50,14 @@ public class StudentHealthModel {
     public void setLastvisit(String lastvisit) {
         this.lastvisit = lastvisit;
     }
+
+    @Override
+    public String toString() {
+        return "StudentHealthModel{" +
+                "bloogroup='" + bloogroup + '\'' +
+                ", xrayresult='" + xrayresult + '\'' +
+                ", lasttreatment='" + lasttreatment + '\'' +
+                ", lastvisit='" + lastvisit + '\'' +
+                '}';
+    }
 }

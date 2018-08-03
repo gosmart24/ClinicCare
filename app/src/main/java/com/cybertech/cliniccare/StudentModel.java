@@ -119,4 +119,21 @@ public class StudentModel {
     public void setSchool(String school) {
         this.school = school;
     }
+
+    @Override
+    public String toString() {
+        return "StudentModel{" +
+                "name='" + name + '\'' +
+                ", studentId='" + studentId + '\'' +
+                ", matric='" + matric + '\'' +
+                ", department='" + department + '\'' +
+                ", school='" + school + '\'' +
+                ", level='" + level + '\'' +
+                ", key='" + key + '\'' +
+                ", parentPhone='" + parentPhone + '\'' +
+                ", studentIcon='" + studentIcon + '\'' +
+                ", studentHealthModel=" + studentHealthModel.toString() +
+                ", timelineModels=" + timelineModels.toString() +
+                '}';
+    }
 }

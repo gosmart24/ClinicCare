@@ -72,7 +72,6 @@ public class StudentAdapter extends FirebaseRecyclerAdapter<StudentModel, Studen
             matric_TV.setText(model.getMatric());
             level_TV.setText(model.getLevel());
 
-
         }
 
     }

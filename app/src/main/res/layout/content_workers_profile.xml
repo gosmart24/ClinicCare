@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:weightSum="2"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".WorkersProfile"
     tools:showIn="@layout/app_bar_workers_profile">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/base_recyclerview_Doctors"
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="100dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:onClick="onViewAppointments"
+        android:text="View Appointments"
+        android:textColor="@color/white" />
 
-    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="4dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:onClick="onSearchStudents"
+        android:text="Search Students"
+        android:textColor="@color/white" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

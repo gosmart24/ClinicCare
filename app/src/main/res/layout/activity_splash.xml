@@ -13,7 +13,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
-        android:src="@drawable/futminna" />
+        android:src="@drawable/stethoscope" />
 
     <TextView
         android:layout_width="wrap_content"

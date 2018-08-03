@@ -1,13 +1,14 @@
 package com.cybertech.cliniccare;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -45,7 +46,10 @@ public class StudentDetails extends AppCompatActivity {
         x_ray_ed.setText(healthmodel.getXrayresult());
         treatment_ed.setText(healthmodel.getLasttreatment());
         visit_ed.setText(healthmodel.getLastvisit());
-        Glide.with(this).load(model.getStudentIcon()).into(st_Icon);
+        Glide.with(this)
+                .load(model.getStudentIcon())
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .into(st_Icon);
 
 
     }

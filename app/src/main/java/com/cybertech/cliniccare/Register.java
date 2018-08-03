@@ -1,10 +1,10 @@
 package com.cybertech.cliniccare;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
-import android.net.Uri;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
@@ -13,13 +13,10 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
 
 public class Register extends AppCompatActivity {
 
@@ -29,6 +26,7 @@ public class Register extends AppCompatActivity {
     private StaffsModel staffsModel;
     DatabaseReference databaseReference;
     StorageReference storage;
+    ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +58,7 @@ public class Register extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Required fields cannot be empty!", Toast.LENGTH_LONG).show();
 
         } else {
+          progressDialog = ProgressDialog.show(Register.this, null, "Processing...please wait", true, true);
             final DatabaseReference ref = databaseReference.push();
             staffsModel.setKey(ref.getKey());
             staffsModel.setStaffsName(name);
@@ -74,6 +73,7 @@ public class Register extends AppCompatActivity {
             }).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
+                    progressDialog.dismiss();
                     if (task.isSuccessful()) {
                         tinyDB.putString("userpass", pass);
                         tinyDB.putString("userids", username);

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Clinic Care</string>
-    <string name="pro_Title">DESIGN AND IMPLEMENTATION OF CLINIC MOBILE APPLICATION FOR FUTMINNA</string>
-    <string name="st_name">ABDULRAHEEM AISHA OMOLOLA</string>
+    <string name="pro_Title">DESIGN AND IMPLEMENTATION OF CLINIC MOBILE APPLICATION FOR FULafia</string>
+    <string name="st_name">Joseph Kigbu</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
@@ -27,13 +27,10 @@
 
     <string-array name="schools">
         <item>SICT</item>
-        <item>SEET</item>
         <item>SAAT</item>
         <item>SEMT</item>
         <item>SET</item>
         <item>SLS</item>
-        <item>SPS</item>
-        <item>SEET-new</item>
     </string-array>
 
     <string-array name="departments">
@@ -56,8 +53,6 @@
         <item>300</item>
         <item>400</item>
         <item>500</item>
-        <item>600</item>
-        <item>700</item>
     </string-array>
 
     <string name="login_help_text">Login as either Clinic attendant/Doctor/</string>
@@ -69,4 +64,6 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_student__home">Home</string>
+    <string name="matric_number">Matric Number:</string>
 </resources>

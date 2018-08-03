@@ -5,19 +5,19 @@
 
 
     <LinearLayout
+        android:id="@+id/student_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:id="@+id/student_card"
         android:orientation="horizontal"
         android:weightSum="2">
 
         <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_search"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:id="@+id/image_search"
             android:layout_marginRight="10dp"
-            android:src="@drawable/futminna" />
+            android:src="@drawable/stethoscope" />
 
         <LinearLayout
             android:layout_width="match_parent"

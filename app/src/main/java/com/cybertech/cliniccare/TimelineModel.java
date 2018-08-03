@@ -48,4 +48,14 @@ public class TimelineModel {
     public void setPersonal(String personal) {
         this.personal = personal;
     }
+
+    @Override
+    public String toString() {
+        return "TimelineModel{" +
+                "visitdate='" + visitdate + '\'' +
+                ", complain='" + complain + '\'' +
+                ", priscriptions='" + priscriptions + '\'' +
+                ", personal='" + personal + '\'' +
+                '}';
+    }
 }

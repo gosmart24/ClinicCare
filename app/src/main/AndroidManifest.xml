@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cybertech.cliniccare">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <application
         android:name=".ClinicCare"
@@ -34,7 +38,7 @@
             android:theme="@style/AppThemeNoBar" />
         <activity
             android:name=".TimeLines"
-            android:label="Medical Histories"></activity>
+            android:label="Medical Histories" />
         <activity android:name=".NewTimeLine" />
         <activity
             android:name=".WorkersProfile"
@@ -48,7 +52,27 @@
             android:label="Settings" />
         <activity
             android:name=".AddStudent"
-            android:theme="@style/AppThemeNoBar"></activity>
+            android:theme="@style/AppThemeNoBar" />
+        <activity
+            android:name=".Student_Login"
+            android:theme="@style/AppThemeNoBar" />
+        <activity
+            android:name=".Student_Home"
+            android:label="@string/title_activity_student__home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OneTimePage"
+            android:theme="@style/AppThemeNoBar" />
+        <activity android:name=".BookAppointment" />
+        <activity
+            android:name=".ViewAppointment"
+            android:theme="@style/AppThemeNoBar" />
+        <activity android:name=".ViewStudentRecords" />
+        <activity
+            android:name=".MyAppointments"
+            android:theme="@style/AppThemeNoBar" />
+        <activity android:name=".SetAppointmentTime" />
+        <activity android:name=".NotificationIntent"></activity>
     </application>
 
 </manifest>
